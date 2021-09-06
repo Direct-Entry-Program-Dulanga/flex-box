@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+
+
+*{
+    font-family: 'Besley', serif;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+    
+    
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    flex-flow: row;
+    flex-flow: column;
+
+  }
+
+.one{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.two{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+.three{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.four{
+    background-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+}
+
+.five{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+}
